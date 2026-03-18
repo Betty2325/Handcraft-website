@@ -1,0 +1,143 @@
+body{
+font-family:serif;
+background-color:white;
+font-size: auto;
+margin:0;
+}
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:white;
+}
+
+.nav1 h2{
+font-weight:bold;
+}
+
+.nav2{
+list-style:none;
+display:flex;
+gap:30px;
+}
+
+.nav2 a{
+text-decoration:none;
+color:black;
+font-size:16px;
+}
+
+.nav2 a:hover{
+color:green;
+}
+
+.nav{
+display:flex;
+align-items:center;
+gap:20px;
+}
+
+.signup{
+text-decoration:none;
+color:black;
+font-weight:500;
+}
+
+.cart{
+font-size:20px;
+cursor:pointer;
+}
+
+
+.Artisan{
+    height: 320px;
+    background : url("Vintgold-vase-banner - Copy.jpg");
+    background-size: cover;
+    color:white;
+    padding: 120px;
+
+}
+.button{
+background:green;
+color:white;
+border:green;
+padding: 12px 25px;
+text-decoration: none;
+
+
+}
+
+.vase{
+    margin-left: 10px;
+    height:10px;
+    margin-top: 100px;
+}
+
+.goods{
+    margin-top: 100px;
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    flex-direction: row;   
+} 
+.goods button{
+    padding:10px 12px;
+    border:none;
+    display: inline-flex;
+    background:green;
+    color:white;
+    border:green;
+
+}
+
+.goods img {
+width:350px;
+height:350px;
+object-fit: cover;
+border-radius: 10px;
+}
+.handcraft{
+    display:flex;
+    justify-content: space-between;
+    padding: 30px 5px;
+    text-align: center;
+    background-color:whitesmoke;
+    margin-top: 50px;
+}
+.ceramicvase{
+    display:flex;
+    justify-content: space-between;
+    padding: 30px 5px;
+    text-align: center;
+    background-color:whitesmoke;
+    margin-top: 50px;
+}
+.last{
+    text-align: center;
+    background-color:whitesmoke;
+    padding:10px;
+
+}
+
+
+
+@media (max-width:720px) {
+    .goods {
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+    
+    }
+    .handcraft {
+        display:inline-block;
+        width:100%;
+    }
+    .ceramicvase {
+        display:inline-block;
+        width:100%
+    }
+}
+
+
+
+
